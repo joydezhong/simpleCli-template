@@ -1,0 +1,13 @@
+{
+  "pc": {
+    "download": "local:front-end/pc-template",
+    "gitUrl": "http://10.0.0.22:3000/front-end/pc-template",
+    "repoName": "pc-template"
+  },
+  "app": {
+    "download": ""
+  },
+  "miniProgram": {
+    "download": ""
+  }
+}
