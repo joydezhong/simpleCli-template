@@ -7,7 +7,7 @@ const inquirer = require('inquirer');
 const verifyNodeVersion = require('../lib/utils/verifyNodeVersion');
 const TEMPLATE_ENUM = require('../lib/template/templateEnum.json');
 const { engines, name, version } = require('../package.json');
-const createTemplate = require('../lib/template/createTemplate')
+const createTemplate = require('../lib/template/createTemplate');
 
 /** 校验所需node版本 */
 verifyNodeVersion(engines.node, name);
